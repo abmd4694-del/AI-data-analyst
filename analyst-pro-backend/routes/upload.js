@@ -15,7 +15,18 @@ const router = Router()
 // Configure multer for CSV uploads
 const storage = multer.diskStorage({
   destination: (req, file, cb) => {
-    cb(null, join(__dirname, '..', 'uploads'))
+    const uploadDir = join(__dirname, '..', 'uploads');
+    if (!fs.existsSync(uploadDir)) {
+      fs.mkdirSync(uploadDir, { recursive: true });
+    }
+    cb(null, uploadDir);
+  },
+  filename: (req, file, cb) => {
+    const uniqueName = `${Date.now()}-${randomUUID().slice(0, 8)}-${file.originalname}`
+    cb(null, uniqueName)
+  }
+})
+
   },
   filename: (req, file, cb) => {
     const uniqueName = `${Date.now()}-${randomUUID().slice(0, 8)}-${file.originalname}`
