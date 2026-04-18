@@ -3,9 +3,8 @@ import multer from 'multer'
 import { randomUUID } from 'crypto'
 import { join, dirname } from 'path'
 import { fileURLToPath } from 'url'
-import dataProcessor from '../utils/dataProcessor.js'
 import fs from 'fs'
-
+import dataProcessor from '../utils/dataProcessor.js'
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
@@ -21,12 +20,6 @@ const storage = multer.diskStorage({
     }
     cb(null, uploadDir);
   },
-  filename: (req, file, cb) => {
-    const uniqueName = `${Date.now()}-${randomUUID().slice(0, 8)}-${file.originalname}`
-    cb(null, uniqueName)
-  }
-})
-
   filename: (req, file, cb) => {
     const uniqueName = `${Date.now()}-${randomUUID().slice(0, 8)}-${file.originalname}`
     cb(null, uniqueName)
