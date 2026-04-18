@@ -1,0 +1,42 @@
+Date,Product,Category,Region,Revenue,Units_Sold,Cost,Profit_Margin
+2024-01-15,Neural Processor X1,Electronics,North America,42000,120,28000,33.3
+2024-01-15,Quantum Drive Pro,Storage,Europe,38000,85,22000,42.1
+2024-01-20,HoloLens Array,Display,North America,31000,56,18000,41.9
+2024-01-25,Fusion Battery V3,Power,Asia Pacific,28000,153,19000,32.1
+2024-02-01,SynthCore Module,Computing,North America,22000,31,12000,45.5
+2024-02-10,Neural Processor X1,Electronics,Europe,35000,98,23000,34.3
+2024-02-15,Quantum Drive Pro,Storage,North America,41000,92,24000,41.5
+2024-02-20,HoloLens Array,Display,Asia Pacific,27000,48,16000,40.7
+2024-03-01,Fusion Battery V3,Power,North America,32000,178,21000,34.4
+2024-03-05,SynthCore Module,Computing,Europe,19000,27,10000,47.4
+2024-03-10,Neural Processor X1,Electronics,Asia Pacific,29000,82,19000,34.5
+2024-03-15,Quantum Drive Pro,Storage,Latin America,24000,65,14000,41.7
+2024-03-20,HoloLens Array,Display,North America,36000,62,21000,41.7
+2024-04-01,Fusion Battery V3,Power,Europe,30000,165,20000,33.3
+2024-04-05,SynthCore Module,Computing,Asia Pacific,17000,24,9000,47.1
+2024-04-10,Neural Processor X1,Electronics,North America,48000,135,31000,35.4
+2024-04-15,Quantum Drive Pro,Storage,North America,44000,99,26000,40.9
+2024-04-20,HoloLens Array,Display,Europe,33000,58,19000,42.4
+2024-05-01,Fusion Battery V3,Power,North America,35000,192,23000,34.3
+2024-05-05,SynthCore Module,Computing,North America,25000,35,13000,48.0
+2024-05-10,Neural Processor X1,Electronics,Latin America,26000,73,17000,34.6
+2024-05-15,Quantum Drive Pro,Storage,Asia Pacific,29000,78,17000,41.4
+2024-05-20,HoloLens Array,Display,North America,39000,67,23000,41.0
+2024-06-01,Fusion Battery V3,Power,Asia Pacific,31000,170,20000,35.5
+2024-06-05,SynthCore Module,Computing,Europe,21000,29,11000,47.6
+2024-06-10,Neural Processor X1,Electronics,North America,52000,148,34000,34.6
+2024-06-15,Quantum Drive Pro,Storage,Europe,42000,95,25000,40.5
+2024-06-20,HoloLens Array,Display,Latin America,25000,44,15000,40.0
+2024-07-01,Fusion Battery V3,Power,North America,38000,210,25000,34.2
+2024-07-05,SynthCore Module,Computing,Asia Pacific,18000,25,9500,47.2
+2024-07-10,Neural Processor X1,Electronics,Europe,40000,112,26000,35.0
+2024-07-15,Quantum Drive Pro,Storage,North America,46000,103,27000,41.3
+2024-07-20,HoloLens Array,Display,Asia Pacific,28000,49,17000,39.3
+2024-08-01,Fusion Battery V3,Power,Europe,33000,182,22000,33.3
+2024-08-10,Neural Processor X1,Electronics,North America,55000,156,36000,34.5
+2024-08-15,Quantum Drive Pro,Storage,Asia Pacific,31000,83,18000,41.9
+2024-08-20,HoloLens Array,Display,North America,41000,71,24000,41.5
+2024-09-01,Fusion Battery V3,Power,North America,40000,220,26000,35.0
+2024-09-10,Neural Processor X1,Electronics,Asia Pacific,34000,96,22000,35.3
+2024-09-15,SynthCore Module,Computing,North America,28000,39,14000,50.0
+2024-09-20,Quantum Drive Pro,Storage,Europe,45000,101,27000,40.0
