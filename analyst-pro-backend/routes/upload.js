@@ -4,6 +4,8 @@ import { randomUUID } from 'crypto'
 import { join, dirname } from 'path'
 import { fileURLToPath } from 'url'
 import dataProcessor from '../utils/dataProcessor.js'
+import fs from 'fs'
+
 
 const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
