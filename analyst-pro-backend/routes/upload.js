@@ -27,7 +27,6 @@ const storage = multer.diskStorage({
   }
 })
 
-  },
   filename: (req, file, cb) => {
     const uniqueName = `${Date.now()}-${randomUUID().slice(0, 8)}-${file.originalname}`
     cb(null, uniqueName)
